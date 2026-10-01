@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "description": "24 developer utilities for AI agents: base64/binary/URL/HTML/Morse codecs, md5/sha1/sha256/sha512 hashing, UUID v4 and ULID generation, HEX/RGB color conversion, rem/px conversion, Unix timestamp conversion, chmod calculator, CSS clamp() generator, CSS specificity scorer, cron parser/describer, cURL-to-fetch converter, HTTP status lookup, JSON to CSV/SQL/TypeScript converters, SVG to data URI, XML to JSON, YAML to JSON and back, plus webpage-to-markdown fetching (SSRF-guarded). Local stdio execution, byte-exact results.",
+  "name": "io.github.xiaojiang19960811/tinykit-mcp",
+  "packages": [
+    {
+      "identifier": "@xiaojiang19960811/mcp-server",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "registryType": "npm",
+      "runtimeHint": "node",
+      "transport": {
+        "type": "stdio"
+      },
+      "version": "1.0.0"
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/xiaojiang19960811/tinykit-mcp"
+  },
+  "title": "TinyKit Developer Tools",
+  "version": "1.0.0",
+  "websiteUrl": "https://tinykit.pages.dev"
+}

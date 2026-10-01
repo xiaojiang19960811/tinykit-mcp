@@ -1,0 +1,58 @@
+{
+  "author": "TinyKit <hello@tinykit.pages.dev>",
+  "bin": {
+    "tinykit-mcp": "./server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaojiang19960811/tinykit-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0"
+  },
+  "description": "TinyKit MCP server — 23 deterministic developer utilities for AI agents (stdio, zero network, byte-exact)",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "server.js",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "skills/",
+    ".claude-plugin/",
+    ".mcp.json",
+    "server.json"
+  ],
+  "homepage": "https://tinykit.pages.dev",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "developer-tools",
+    "base64",
+    "hash",
+    "uuid",
+    "ulid",
+    "timestamp",
+    "json",
+    "yaml",
+    "cron",
+    "css",
+    "claude-code"
+  ],
+  "license": "MIT",
+  "main": "server.js",
+  "name": "@xiaojiang19960811/mcp-server",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaojiang19960811/tinykit-mcp.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-client.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
